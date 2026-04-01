@@ -1,0 +1,143 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #efefed;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f7f7f8;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+h1 {
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Status */
+.status {
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #efefed;
+  border-left: 4px solid #333333;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #efefed;
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #333333;
+  box-shadow: 0 0 0 2px rgba(51, 51, 51, 0.1);
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  background: #333333;
+  color: #f7f7f8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: #000;
+}
+
+/* Output Box */
+.output-box {
+  margin-top: 25px;
+}
+
+.output {
+  border-radius: 10px;
+  padding: 15px;
+  background: #efefed;
+  border: 1px solid #ddd;
+  min-height: 60px;
+  font-family: monospace;
+  position: relative;
+}
+
+/* Payload Section */
+.payloads {
+  margin-top: 30px;
+}
+
+.payloads h3 {
+  margin-bottom: 10px;
+}
+
+.payloads button {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  text-align: left;
+  font-family: monospace;
+  background: #efefed;
+  color: #333333;
+  border: 1px solid #ddd;
+}
+
+.payloads button:hover {
+  background: #333333;
+  color: #f7f7f8;
+}
+
+/* Notes */
+.notes {
+  margin-top: 30px;
+  padding: 15px;
+  background: #efefed;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.notes h3 {
+  margin-bottom: 10px;
+}
+
+.notes ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+/* Subtle animation */
+.container {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
